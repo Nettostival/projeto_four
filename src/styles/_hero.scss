@@ -1,0 +1,40 @@
+@use 'variaveis';
+
+.hero {
+    padding: 5.6vw;
+    min-height: 70vh;
+    background-image: url(../images/hero123.png);
+    background-size: cover;
+
+    @media (max-width: 768px) {
+        padding-top: calc(50vw + 25vw);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: -55px;
+    }
+
+    &__text {
+        color: variaveis.$corTextoPrincipal;
+
+        
+        h1 {
+            padding-left: 7%;
+            display: inline-block;
+            padding-bottom: 40px ;
+            
+        }
+
+        h2 {
+            display: flex;
+            justify-items: center;
+            padding-right: 60%;
+
+            @media (max-width: 768px) {
+                padding: 0 12px 0 20px;
+                display: block;
+                text-align: center;
+            }
+
+        }
+    }
+}

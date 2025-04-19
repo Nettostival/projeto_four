@@ -1,0 +1,14 @@
+@use 'variaveis';
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: variaveis.$corTextoPrincipal;
+    text-align: center;
+
+
+    @media (max-width: 768px) {
+        text-align: center;
+    }
+}
