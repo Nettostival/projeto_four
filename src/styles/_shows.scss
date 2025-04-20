@@ -13,12 +13,19 @@
     &__list {
         margin-top: 44px;
         display: none;
-        grid-template-columns: repeat(11, 1fr) ;
+        grid-template-columns: repeat(11, 1fr);
         gap: 24px;
         
 
         @media (max-width: 768px) {
             grid-template-columns: 1fr 1fr;
+            display: block;
+            text-align: center;
+        }
+
+        @media (max-width: 932px) {
+            padding: 0 auto;
+            grid-template-columns: repeat(8, 1fr);
             display: block;
             text-align: center;
         }

@@ -28,7 +28,7 @@
                 text-decoration: none;
                 padding: 8px 16px;
                 display: block;
-                font-size: small;
+                font-size: x-small;
 
                 &:hover {
                     color: variaveis.$corExtra;
@@ -36,7 +36,9 @@
 
                 @media (max-width: 768px) {
                     display: block;
-                    font-size: x-small;
+                    font-size: xx-small;
+                    padding-left: 0 auto 0;
+                    overflow: none;
                 }
             }
         }
@@ -45,11 +47,13 @@
     p {
         margin-bottom: 16px;
         color: variaveis.$corFooter;
-        font-size: small;
+        font-size: x-small;
 
         @media (max-width: 768px) {
+            overflow-x: none;
             display: block;
-            font-size: x-small;
+            font-size: xx-small;
+            padding-left: 0 auto 0;
         }
     }
 
