@@ -12,6 +12,7 @@
         background-size: contain;
         background-repeat: no-repeat;
         margin-top: -55px;
+        overflow-x: none;
     }
 
     &__text {
@@ -34,6 +35,7 @@
                 padding: 0 12px 0 20px;
                 display: block;
                 text-align: center;
+                overflow-x: none;
             }
 
         }

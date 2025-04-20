@@ -21,6 +21,7 @@
             grid-template-columns: 1fr 1fr;
             display: block;
             text-align: center;
+            overflow-x: none;
         }
 
         @media (min-width: 769px) {
@@ -28,6 +29,7 @@
             grid-template-columns: repeat(8, 1fr);
             display: block;
             text-align: center;
+            overflow-x: none;
         }
 
         &--is-active {

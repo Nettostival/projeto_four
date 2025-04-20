@@ -35,10 +35,11 @@
                 }
 
                 @media (max-width: 768px) {
+                    overflow-x: none;
                     display: block;
                     font-size: xx-small;
                     padding-left: 0 auto 0;
-                    overflow: none;
+                    overflow-x: none;
                 }
             }
         }
@@ -54,6 +55,7 @@
             display: block;
             font-size: xx-small;
             padding-left: 0 auto 0;
+            overflow-x: none;
         }
     }
 
