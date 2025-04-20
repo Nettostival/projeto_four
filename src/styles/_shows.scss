@@ -19,6 +19,8 @@
 
         @media (max-width: 768px) {
             grid-template-columns: 1fr 1fr;
+            display: block;
+            text-align: center;
         }
 
         &--is-active {
