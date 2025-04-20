@@ -23,7 +23,7 @@
             text-align: center;
         }
 
-        @media (max-width: 932px) {
+        @media (min-width: 769px) {
             padding: 0 auto;
             grid-template-columns: repeat(8, 1fr);
             display: block;
